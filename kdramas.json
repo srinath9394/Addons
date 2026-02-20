@@ -1,0 +1,41 @@
+{
+  "id": "org.stremio.asian.drama.hub",
+  "version": "1.0.1",
+  "name": "Asian Drama Hub",
+  "description": "Korean and Japanese drama catalogs with full metadata support",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "kdrama_latest",
+      "name": "Korean • Latest"
+    },
+    {
+      "type": "series",
+      "id": "mdl_top_2025",
+      "name": "Korean • Top Rated 2025"
+    },
+    {
+      "type": "series",
+      "id": "mdl_top_alltime",
+      "name": "Korean • All Time"
+    },
+    {
+      "type": "series",
+      "id": "jdrama_latest",
+      "name": "Japanese • Latest"
+    }
+  ],
+  "idPrefixes": [
+    "tt",
+    "kdrama",
+    "jdrama"
+  ]
+}
